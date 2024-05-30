@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:backgroundTint="#B56F13"
+    android:elevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/foodpic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="center"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/arabshawarma" />
+
+        <TextView
+            android:id="@+id/foodtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:text="ARABIC SHWARMA"
+            android:textColor="#232323"/>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
